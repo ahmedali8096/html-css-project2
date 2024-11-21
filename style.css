@@ -202,9 +202,8 @@ footer{
   height: 200px;
   padding-bottom: 50px;
   padding-right: 5px;
- 
   text-align: left;
- 
+  margin: auto;
 }
 .mainf{
   display: flex;
@@ -215,7 +214,14 @@ footer{
 .mainf2{
   height: 200px;
   width: 450px;
-  
+  margin: auto;
+  padding-bottom: 100px;
+}
+.mainf3{
+  width: 330px;
+  height: auto;
+  padding-bottom: 50px;
+ 
 }
 .pf1{
   font-size: 21px;
@@ -244,4 +250,25 @@ input{
   width: 110px;
   color: white;
   font-size: 20px;
+}
+.mainf4{
+ 
+}
+.dropdown A:hover  {
+  display: block;
+  position: relative;
+
+}
+.li4{
+  margin: 0%;
+  padding: 0%;
+}
+.ul4{
+  margin: 0%;
+  padding: 0%;
+  display: block;
+  margin: 10px;
+}
+.dropdown{
+  display: none; 
 }
