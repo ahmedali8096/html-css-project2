@@ -26,7 +26,6 @@
   display: flex;
 }
 
-
 .ul1 {
   display: flex;
   height: 100px;
@@ -47,7 +46,7 @@ a {
 }
 .nava1 {
   color: #0000ff;
- margin-left: 300px;
+  margin-left: 300px;
   font-size: 20px;
   display: block;
 }
@@ -57,6 +56,23 @@ a {
 .img1 {
   height: 50px;
   width: 100%;
+}
+.firstimg {
+  width: 100%;
+  height: 795px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  position: relative;
+}
+.firstimgtext{
+  position: relative;
+ bottom: 450px; 
+ font-size: 64px;
+ color: rgb(240, 44, 44);
+  left:35%;
+
 }
 .p1 {
   justify-content: center;
@@ -153,7 +169,8 @@ a {
   right: 100px;
 }
 .img7 {
-  margin-left: 100px;
+width: 400px;
+  
 }
 .img7d {
   height: 641px;
@@ -167,7 +184,8 @@ a {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 1370px;
+  width: 100%;
+  justify-content: center;
 }
 .img7para {
   font-size: 32px;
@@ -211,7 +229,7 @@ footer {
   margin: auto;
   padding-bottom: 100px;
 }
-.mainf2btn{
+.mainf2btn {
   display: flex;
   align-items: center;
 }
@@ -252,8 +270,8 @@ input {
   gap: 70px;
   margin-top: 10px;
   gap: 2px;
- height: 35px;
- align-items: center;
+  height: 35px;
+  align-items: center;
 }
 
 .li4 {
@@ -266,9 +284,13 @@ input {
   display: block;
   margin: 10px;
 }
+
 .dropdown {
+  position: relative;
   display: none;
 }
+
+
 .last {
   display: flex;
   gap: 20px;
@@ -281,7 +303,6 @@ input {
   position: absolute;
   right: 200px;
   align-items: center;
-
 }
 .lanbtn {
   width: 100px;
@@ -299,41 +320,170 @@ input {
   align-items: center;
   padding-left: 8px;
 }
-@media only screen and (max-width:580px) {
-  .mainf1{
+.fulburger{
+  display: none;
+}
+@media only screen and (max-width: 580px) {
+  .mainf1 {
     height: 150px;
     padding-bottom: 30px;
     margin: 0%;
   }
-  .embtn{
+  .embtn {
     width: 250px;
   }
-  .mainf2btn{
+  .mainf2btn {
     display: flex;
     gap: none;
     align-items: center;
   }
-  .mainf2{
+  .mainf2 {
     padding-bottom: 30px;
     margin: 0px;
   }
-  .last{
+  .last {
     flex-direction: column;
     margin-top: 50px;
   }
-  .lastul{
+  .lastul {
     position: relative;
     left: 1px;
     text-align: left;
     margin-top: 40px;
     padding-bottom: 40px;
   }
-  .img7ful{
+  .ul1 {
+    display: none;
+  }
+  .fulburger {
     display: flex;
-    flex-direction: column;
+    margin-left: 10px;
+    padding: 15px 10px;
   }
-  .img7{
-    width: 440px;
-    max-width: 660px;
+  .navbar {
+    padding-top: 0%;
   }
+  .menubtn {
+    border: none;
+    background-color: #fff;
+    font-size: 20px;
+    margin-left: 25px;
+  }
+  .ul2 {
+    padding: 25px 10px;
+  }
+  .p1 {
+    width: 90%;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  .p2 {
+    width: 90%;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 60px;
+    
+  }
+  section {
+    padding: 0px 10px;
+  }
+  .firstimg img{
+width: 100%;
+  }
+  .firstimgtext{
+    position: relative;
+   bottom: 450px; 
+   font-size: 64px;
+   color: rgb(240, 44, 44);
+    left:35%;
+}
+.back1{
+  width: 315px;
+  height: 300px;
+  position: absolute;
+  right: 1px;
+  margin-top: 50px;
+}
+
+.img2{
+  width: 200px;
+  height: 200px ;
+  position: relative;
+  top: 90px;
+  left: 20px;
+}
+.back1 img{
+  width: 170px;
+  height: auto;
+  margin-left: 110px;
+  position: relative;
+  top: 100px;
+}
+.flex{
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vedio1{
+  width: 100%;
+}
+.back2{
+height: 400px;
+width: 300px;  
+position: absolute;
+left: 10px;
+}
+.img3{
+  width: 170px;
+  top: 50px;
+  left: 40px;
+  margin-bottom: 0px;
+  margin-bottom: 40px;
+}
+.img4{
+  position: relative;
+  bottom: 260px;
+  left: 230px;
+  width: 200px;
+}
+.secondimg img{
+  width: 100%;
+}
+.flex2{
+  width: 295px;
+  height: 295px;
+
+}
+.img5{
+  position: relative;
+  top: 70px;
+  right: 70px;
+  width: 200px;
+}
+.img6{
+  position: relative;
+  bottom: 100px;
+  left: 160px;
+  width: 200px;
+}
+.img7ful{
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ width: 400px;
+}
+.img7 img{
+width: 400px;
+}
+.img7{
+  margin-left: 0%;
+
+}
+.img7d{
+  width: 400px;
+  height: 400px;
+}
 }
