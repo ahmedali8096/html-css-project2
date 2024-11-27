@@ -66,13 +66,12 @@ a {
   margin-bottom: 100px;
   position: relative;
 }
-.firstimgtext{
+.firstimgtext {
   position: relative;
- bottom: 450px; 
- font-size: 64px;
- color: rgb(240, 44, 44);
-  left:35%;
-
+  bottom: 450px;
+  font-size: 64px;
+  color: rgb(240, 44, 44);
+  left: 35%;
 }
 .p1 {
   justify-content: center;
@@ -158,6 +157,9 @@ a {
   margin: auto;
   background-color: rgb(213, 179, 255);
 }
+.flex3{
+  height: 1000px;
+}
 .img6 {
   position: relative;
   bottom: 260px;
@@ -168,10 +170,7 @@ a {
   top: 250px;
   right: 100px;
 }
-.img7 {
-width: 400px;
-  
-}
+
 .img7d {
   height: 641px;
   width: 641px;
@@ -190,9 +189,11 @@ width: 400px;
 .img7para {
   font-size: 32px;
   font-weight: bold;
-
   height: 340px;
   width: 340px;
+}
+.img7para p {
+  padding-bottom: 40px;
 }
 h1 {
   font-size: 54px;
@@ -290,7 +291,6 @@ input {
   display: none;
 }
 
-
 .last {
   display: flex;
   gap: 20px;
@@ -320,9 +320,16 @@ input {
   align-items: center;
   padding-left: 8px;
 }
-.fulburger{
+.fulburger {
   display: none;
 }
+.vedio1 iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
 @media only screen and (max-width: 580px) {
   .mainf1 {
     height: 150px;
@@ -385,105 +392,287 @@ input {
     font-size: 20px;
     text-align: left;
     margin-bottom: 60px;
-    
   }
   section {
     padding: 0px 10px;
   }
-  .firstimg img{
-width: 100%;
+  .firstimg img {
+    width: 100%;
   }
-  .firstimgtext{
+  .firstimgtext {
     position: relative;
-   bottom: 450px; 
-   font-size: 64px;
-   color: rgb(240, 44, 44);
-    left:35%;
+    bottom: 450px;
+    font-size: 64px;
+    color: rgb(240, 44, 44);
+    left: 35%;
+  }
+  .back1 {
+    width: 315px;
+    height: 300px;
+    position: absolute;
+    right: 1px;
+    margin-top: 50px;
+  }
+
+  .img2 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 90px;
+    left: 20px;
+  }
+  .back1 img {
+    width: 170px;
+    height: auto;
+    margin-left: 110px;
+    position: relative;
+    top: 100px;
+  }
+  .flex {
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .vedio1 {
+    width: 100%;
+  }
+  .back2 {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    left: 10px;
+  }
+  .img3 {
+    width: 170px;
+    top: 50px;
+    left: 40px;
+    margin-bottom: 0px;
+    margin-bottom: 40px;
+  }
+  .img4 {
+    position: relative;
+    bottom: 260px;
+    left: 230px;
+    width: 200px;
+  }
+  .secondimg img {
+    width: 100%;
+  }
+  .flex2 {
+    width: 295px;
+    height: 295px;
+  }
+  .img5 {
+    position: relative;
+    top: 70px;
+    right: 70px;
+    width: 200px;
+  }
+  .img6 {
+    position: relative;
+    bottom: 100px;
+    left: 160px;
+    width: 200px;
+  }
+  .img7ful {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+  }
+  .img7 img {
+    width: 400px;
+  }
+  .img7 {
+    margin-left: 0%;
+  }
+  .img7d {
+    width: 400px;
+    height: 400px;
+  }
+  .flex3{
+    height: 400px;
+  }
 }
-.back1{
-  width: 315px;
-  height: 300px;
+
+@media only screen and (min-width: 581px) and (max-width: 778px) {
+  .ul1 {
+    display: none;
+  }
+  .fulburger {
+    display: block;
+    display: flex;
+    margin-left: 10px;
+    padding: 18px 10px;
+  }
+  .menubtn {
+    border: none;
+    background-color: #fff;
+    font-size: 20px;
+    margin-left: 25px;
+  }
+  .navbar {
+    padding-top: 0%;
+  }
+  .ul2 {
+    padding: 20px 10px;
+  }
+  section.pageabout {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+  }
+  
+  .p1 {
+    width: 70%;
+    text-align: left;
+    font-size: 19px;
+    line-height: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .p2 {
+    width: 70%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 60px;
+  }
+  div.first.img {
+    height: 850px;
+  }
+  .firstimgtext {
+    font-size: 100px;
+    position: relative;
+    left: 32%;
+    font-weight: bolder;
+  }
+  .back1 {
+    margin-top: 1px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 10px;
+  }
+  .back1 img {
+    width: 220px;
+    height: auto;
+    position: relative;
+    top: 130px;
+    margin-left: 150px;
+  }
+  .img2 {
+    width: 280px;
+    height: 280px;
+    position: relative;
+    top: 60px;
+    left: 30px;
+  }
+  .flex {
+    height: 450px;
+   
+  }
+  .vedio1 iframe {
+    width: 80%;
+    height: 288px;
+  }
+  .pshort{
+    width: 80%;
+    margin-bottom: 60px;
+  }
+  .back2{
+    width: 420px;
+  height: 540px;
   position: absolute;
-  right: 1px;
-  margin-top: 50px;
-}
-
-.img2{
-  width: 200px;
-  height: 200px ;
+  left:0px;
+  }
+  .img3{
+    width: 230px;
   position: relative;
-  top: 90px;
-  left: 20px;
-}
-.back1 img{
-  width: 170px;
-  height: auto;
-  margin-left: 110px;
-  position: relative;
-  top: 100px;
-}
-.flex{
-  height: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.vedio1{
-  width: 100%;
-}
-.back2{
-height: 400px;
-width: 300px;  
-position: absolute;
-left: 10px;
-}
-.img3{
-  width: 170px;
-  top: 50px;
+  top: 60px;
   left: 40px;
-  margin-bottom: 0px;
-  margin-bottom: 40px;
-}
-.img4{
+  margin-bottom: 60px;
+  }
+  .img4{
+    width: 290px;
+    height: auto;
+    position: absolute;
+    top: 110px;
+    left: 290px;
+  }
+  .flex3{
+height: 600px;
+  }
+  .secondimg img{
+    width: 80%;
+    margin-bottom: 60px;
+  }
+  .flex2{
+    width: 490px;
+  height: 460px;
+  margin-bottom: 50px;
+  }
+  .img5{
+    width: 225px;
   position: relative;
-  bottom: 260px;
-  left: 230px;
-  width: 200px;
-}
-.secondimg img{
-  width: 100%;
-}
-.flex2{
-  width: 295px;
-  height: 295px;
-
-}
-.img5{
-  position: relative;
-  top: 70px;
-  right: 70px;
-  width: 200px;
-}
+  top: 140px;
+  right:  50px;
+  }
 .img6{
+  width: 290px;
   position: relative;
   bottom: 100px;
-  left: 160px;
-  width: 200px;
+  left: 240px;
 }
-.img7ful{
+.img7ful {
   display: flex;
   flex-direction: column;
- justify-content: center;
- width: 400px;
+  justify-content: center;
+ width: 580px;
 }
-.img7 img{
-width: 400px;
-}
-.img7{
-  margin-left: 0%;
-
+.img7ful img{
+  width:580px;
+  height: 400px;
 }
 .img7d{
-  width: 400px;
-  height: 400px;
+  width: 580px;
+  height: 250px;
+}
+.img7para{
+  width: 80%;
+    height: auto;
+    font-size: 20px;
+}
+.img7para p {
+  padding-bottom: 20px;
+}
+h1{
+  font-size: 35px;
+  
+}
+.mainf1{
+  width: 100%;
+padding-bottom: 0px;
+height: 180px;
+}
+.mainf2{
+  width: 100%;
+  padding-bottom: 20px;
+}
+.mainf3{
+  width: 100%;
+}
+.last{
+  height: 40px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.lastul{
+  display: flex;
+  position: absolute;
+  left: 55px;
+  padding-bottom: 50px;
 }
 }
