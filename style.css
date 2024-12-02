@@ -66,9 +66,9 @@ a {
   width: 100%;
 }
 
-.firstimg {
+.first {
   width: 100%;
-  height: 795px;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -459,17 +459,21 @@ input {
   section {
     padding: 0px 10px;
   }
-
-  .firstimg img {
-    width: 100%;
+  .first {
+    margin-bottom: 0px;
+    height: 500px;
   }
-
+  .rapar {
+    width: 100%;
+    height: 500px;
+  }
   .firstimgtext {
     position: relative;
-    bottom: 450px;
-    font-size: 64px;
+    bottom: 300px;
+    font-size: 54px;
     color: rgb(240, 44, 44);
-    left: 35%;
+    left: 30%;
+    width: 50%;
   }
 
   .back1 {
@@ -477,7 +481,7 @@ input {
     height: 300px;
     position: absolute;
     right: 1px;
-    margin-top: 50px;
+    margin-top: 20px;
   }
 
   .img2 {
@@ -497,15 +501,18 @@ input {
   }
 
   .flex {
-    height: 400px;
+    height: 350px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .vedio1 {
-    width: 100%;
+  .vedio1 iframe {
+    width: 80%;
+    height: 200px;
   }
-
+  .pshort {
+    width: 80%;
+  }
   .back2 {
     height: 400px;
     width: 300px;
@@ -531,6 +538,11 @@ input {
   .secondimg img {
     width: 100%;
   }
+  .secondimg {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .flex2 {
     width: 295px;
@@ -555,11 +567,11 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 400px;
+    width: 380px;
   }
 
   .img7 img {
-    width: 400px;
+    width: 380px;
   }
 
   .img7 {
@@ -567,8 +579,13 @@ input {
   }
 
   .img7d {
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 300px;
+  }
+  .img7para {
+    width: 80%;
+    height: auto;
+    font-size: 20px;
   }
 
   .flex3 {
@@ -590,6 +607,12 @@ input {
 
   .navbar {
     padding-top: 0%;
+  }
+  .menubtn {
+    border: none;
+    background-color: #fff;
+    font-size: 20px;
+    margin-left: 25px;
   }
 
   .ul2 {
@@ -619,15 +642,20 @@ input {
     margin-bottom: 60px;
   }
 
-  div.first.img {
-    height: 850px;
+  .first .rapar {
+    height: 650px;
+    width: 100%;
+  }
+  .first {
+    margin-bottom: 0%;
   }
 
   .firstimgtext {
-    font-size: 100px;
+    font-size: 60px;
     position: relative;
     left: 32%;
     font-weight: bolder;
+    bottom: 380px;
   }
 
   .back1 {
@@ -656,7 +684,6 @@ input {
 
   .flex {
     height: 450px;
-
   }
 
   .vedio1 iframe {
@@ -725,23 +752,27 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 580px;
+    width: 530px;
   }
 
-  .img7ful img {
-    width: 580px;
-    height: 400px;
+  .img7 img {
+    width: 530px;
+    height: 350px;
+  }
+
+  .img7 {
+    margin-left: 0%;
   }
 
   .img7d {
-    width: 580px;
-    height: 250px;
+    width: 530px;
+    height: 280px;
   }
-
   .img7para {
     width: 80%;
     height: auto;
     font-size: 20px;
+    line-height: 28px;
   }
 
   .img7para p {
@@ -750,7 +781,6 @@ input {
 
   h1 {
     font-size: 35px;
-
   }
 
   .mainf1 {
@@ -779,17 +809,21 @@ input {
   .lastul {
     display: flex;
     position: absolute;
-    left: 55px;
+    left: 40px;
     padding-bottom: 50px;
+    padding-left: 5px;
   }
-
 }
 
 @media only screen and (min-width: 779px) and (max-width: 1023px) {
   .ul1 {
     display: none;
   }
-
+  section.pageabout {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+  }
   .fulburger {
     display: flex;
     margin-left: 10px;
@@ -810,14 +844,20 @@ input {
   .navbar {
     padding-top: 0%;
   }
+  .first .rapar {
+    height: 800px;
+    width: 100%;
+  }
+  .first {
+    margin-bottom: 0%;
+    width: 90%;
+  }
 
   .firstimgtext {
     position: relative;
-    bottom: 300px;
+    bottom: 450px;
     font-size: 64px;
     color: rgb(240, 44, 44);
-    
-    width: fit-content;
     font-size: 84px;
   }
 
@@ -862,13 +902,13 @@ input {
     margin-left: 160px;
   }
 
-  .vedio1 {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+  .vedio1 iframe {
+    width: 75%;
+    height: 350px;
   }
 
   .pshort {
+    width: 75%;
     margin-bottom: 60px;
   }
 
@@ -932,24 +972,24 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 600px;
+    width: 670px;
   }
 
   .img7ful img {
     width: 100%;
-    height: 500px;
+    height: 400px;
   }
 
   .img7d {
-    width: 600px;
-    height: 200px;
-
+    width: 670px;
+    height: 250px;
   }
 
   .img7para {
     font-size: 20px;
     height: auto;
     width: 85%;
+    line-height: 28px;
   }
 
   .img7para p {
@@ -994,8 +1034,85 @@ input {
   .lastul {
     display: flex;
     position: absolute;
-    left: 55px;
+    left: 75px;
     padding-bottom: 50px;
     padding-top: 20px;
   }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1380px) {
+  .ul1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  li {
+    list-style-type: none;
+    padding: 0 8px;
+    margin: 0 5px;
+  }
+  .nava1{
+    margin-left: 0%;
+    margin-right: 30px;
+    font-size: 16px;
+  }
+  .nava2{
+    margin-right: 160px;
+  }
+
+ .try{
+  display: flex;
+  font-size: 16px;
+  position: absolute;
+  right: 60px;
+ }
+ .first{
+  width: 90%;
+  margin-bottom: 50px;
+ }
+ .p1 {
+  width: 70%;
+  text-align: left;
+ font-size: 30px;
+  line-height: 40px;
+
+  margin-top: 10px;
+}
+
+.p2 {
+  width: 70%;
+  text-align: left;
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 60px;
+}   
+.back1{
+  margin-top: 50px;
+  height: 750px;
+  width: 750px;
+  position:absolute;
+  right: 10px;
+}
+.back1 img{
+width: 400px;
+height: 300px;
+position: relative;
+top: 220px;
+margin-left: 300px;
+}
+.img2{
+  position: relative;
+  top: 200px;
+  margin-left: 100px;
+  left: 0px;
+  width: 450px;
+  height: 450px;
+}
+.vedio1 iframe {
+  width: 75%;
+  height: 550px;
+}
+
+.pshort {
+  width: 75%;
+  margin-bottom: 60px;
+}
 }
