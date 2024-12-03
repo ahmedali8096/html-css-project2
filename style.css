@@ -52,13 +52,13 @@ a {
 
 .nava1 {
   color: #0000ff;
-  margin-left: 300px;
-  font-size: 20px;
-  display: block;
+  margin-right: 40px;
 }
 
 .nava2 {
   color: #f8430b;
+ 
+
 }
 
 .img1 {
@@ -67,42 +67,51 @@ a {
 }
 
 .first {
-  width: 100%;
+  width: 85%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
   position: relative;
+  margin-bottom: 50px;
+ 
+
 }
 
 .firstimgtext {
-  position: relative;
-  bottom: 450px;
-  font-size: 64px;
-  color: rgb(240, 44, 44);
-  left: 35%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 100px;
+   color: #ff764d;
+   font-weight: 600;
+ 
 }
+
 
 .p1 {
   justify-content: center;
-  width: 700px;
+  width: 50%;
   margin: auto;
-  text-align: center;
+  text-align: left;
   margin-bottom: 25px;
   font-size: 30px;
   margin-top: 100px;
+  line-height: 42px;
 }
 
 .p2 {
   justify-content: center;
-  width: 700px;
+  width: 50%;
   margin: auto;
-  text-align: center;
+  text-align: left;
   margin-bottom: 25px;
   font-size: 20px;
   font-weight: 100;
   margin-bottom: 100px;
+  line-height: 42px;
 }
 
 .pa {
@@ -114,8 +123,8 @@ a {
   width: 850px;
   background-color: #fbffa7;
   position: absolute;
-  right: 200px;
-  margin-top: 120px;
+  right: 10px;
+ 
 }
 
 .back1 img {
@@ -130,12 +139,12 @@ a {
   height: 580px;
   width: 580px;
   position: relative;
-  top: 300px;
+  top: 150px;
   left: 200px;
 }
 
 .flex {
-  height: 1000px;
+  height: 850px;
 }
 
 .p3 {
@@ -158,7 +167,7 @@ a {
   width: 900px;
   background-color: #b6ffc0;
   position: absolute;
-  left: 150px;
+  left: 100px;
 }
 
 .img3 {
@@ -170,12 +179,12 @@ a {
 
 .img4 {
   position: relative;
-  bottom: 700px;
-  left: 800px;
+  bottom: 600px;
+  left: 700px;
 }
 
 .flex2 {
-  width: 1064px;
+  width: 1000px;
   height: 900px;
   margin: auto;
   background-color: rgb(213, 179, 255);
@@ -188,13 +197,14 @@ a {
 .img6 {
   position: relative;
   bottom: 260px;
-  left: 650px;
+  left: 600px;
+  width: 600px;
 }
 
 .img5 {
   position: relative;
   top: 250px;
-  right: 100px;
+  right: 80px;
 }
 
 .img7d {
@@ -276,7 +286,10 @@ footer {
   width: 330px;
   height: auto;
   padding-bottom: 50px;
+  
 }
+
+
 
 .pf1 {
   font-size: 21px;
@@ -372,12 +385,17 @@ input {
 .fulburger {
   display: none;
 }
-
+.vedio1{
+ 
+ 
+ 
+}
 .vedio1 iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 50%;
+  height: 400px;
 }
 
 @media only screen and (max-width: 580px) {
@@ -441,19 +459,21 @@ input {
   }
 
   .p1 {
-    width: 90%;
+    width: 85%;
     font-size: 20px;
     text-align: left;
     margin-bottom: 40px;
     font-weight: bold;
     margin-top: 50px;
+    line-height: 32px;
   }
 
   .p2 {
-    width: 90%;
+    width: 85%;
     font-size: 20px;
     text-align: left;
     margin-bottom: 60px;
+    line-height: 32px;
   }
 
   section {
@@ -462,18 +482,21 @@ input {
   .first {
     margin-bottom: 0px;
     height: 500px;
+    margin-top: 25px;
   }
   .rapar {
     width: 100%;
     height: 500px;
   }
   .firstimgtext {
-    position: relative;
-    bottom: 300px;
-    font-size: 54px;
-    color: rgb(240, 44, 44);
-    left: 30%;
-    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+     color: #ff764d;
+     font-weight: 600;
+   
   }
 
   .back1 {
@@ -536,7 +559,7 @@ input {
   }
 
   .secondimg img {
-    width: 100%;
+    width: 80%;
   }
   .secondimg {
     width: 80%;
@@ -651,11 +674,14 @@ input {
   }
 
   .firstimgtext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     font-size: 60px;
-    position: relative;
-    left: 32%;
-    font-weight: bolder;
-    bottom: 380px;
+     color: #ff764d;
+     font-weight: 600;
+   
   }
 
   .back1 {
@@ -854,11 +880,14 @@ input {
   }
 
   .firstimgtext {
-    position: relative;
-    bottom: 450px;
-    font-size: 64px;
-    color: rgb(240, 44, 44);
-    font-size: 84px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+     color: #ff764d;
+     font-weight: 600;
+   
   }
 
   .p1 {
@@ -1039,7 +1068,7 @@ input {
     padding-top: 20px;
   }
 }
-@media only screen and (min-width: 1024px) and (max-width: 1380px) {
+@media only screen and (min-width: 1024px) and (max-width: 1400px) {
   .ul1 {
     padding-left: 20px;
     padding-right: 20px;
@@ -1049,25 +1078,31 @@ input {
     padding: 0 8px;
     margin: 0 5px;
   }
-  .nava1{
-    margin-left: 0%;
-    margin-right: 30px;
-    font-size: 16px;
-  }
+  
   .nava2{
     margin-right: 160px;
   }
 
  .try{
   display: flex;
-  font-size: 16px;
   position: absolute;
-  right: 60px;
+  right: 70px;
  }
  .first{
   width: 90%;
   margin-bottom: 50px;
  }
+ .firstimgtext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 100px;
+   color: #ff764d;
+   font-weight: 600;
+ 
+}
+
  .p1 {
   width: 70%;
   text-align: left;
@@ -1113,6 +1148,91 @@ margin-left: 300px;
 
 .pshort {
   width: 75%;
+  margin-bottom: 40px;
+}
+.back2{
+  height: 880px;
+  width: 751px;
+  background-color: #b6ffc0;
+  position: absolute;
+  left: 10px;
+}
+.img3{
+  width: 400px;
+  margin-bottom: 50px;
+  left: 80px;
+}
+.img4{
+  position: relative;
+  bottom: 550px;
+  left: 520px;
+  width: 480px;
+}
+.secondimg img {
+  width: 80%;
   margin-bottom: 60px;
+}
+.flex2 {
+  width: 740px;
+  height: 700px;
+  margin-bottom: 100px;
+}
+
+.img5 {
+  width: 400px;
+  position: relative;
+  top: 200px;
+  right: 120px;
+}
+.img6 {
+  width: 460px;
+  position: relative;
+  bottom: 180px;
+  left: 420px;
+}
+.img7ful {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 850px;
+}
+
+.img7ful img {
+ width: 850px;
+ height: 500px;
+}
+
+.img7d {
+  width: 850px;
+  height: 300px;
+}
+
+.img7para {
+  font-size: 32px;
+  font-weight: bold;
+  height: auto;
+  width: 80%;
+ 
+}
+.img7para p {
+  padding-bottom: 10px;
+}
+.mainf1{
+ margin: 0%;
+  padding-bottom: 0px;
+  width: 45%;
+}
+.mainf2{
+  width: 100%;
+  padding-bottom: 0px;
+}
+.last{
+  height: 40px;
+  display: flex;
+}
+
+.lastul{
+  right: 100px;
+  align-items: start;
 }
 }
